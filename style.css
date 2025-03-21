@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h4 {
-    color: #d54215;
+    color: #CE5028;
     font-weight: 900;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #d54215;
+    color: #CE5028;
 }
 
 /* Home Page */
@@ -66,5 +66,8 @@ a:hover {
     font-weight: 900;
 }
 .home-list li a {
-    padding: 20px 0 20px 20px;
-}   
+    padding: 20px;
+}
+.home-list li a:hover {
+    background-color: rgba(206, 80, 40, 0.1);
+}
