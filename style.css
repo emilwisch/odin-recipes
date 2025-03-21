@@ -25,7 +25,7 @@ h1 {
     font-size: 60px;
     text-transform: uppercase;
     border-bottom: 1px solid #999;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
 }
 
@@ -63,5 +63,8 @@ a:hover {
     margin: 20px;
 }
 .home-list li {
-    padding: 20px;
+    font-weight: 900;
 }
+.home-list li a {
+    padding: 20px 0 20px 20px;
+}   
