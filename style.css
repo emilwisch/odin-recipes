@@ -38,10 +38,6 @@ h1 {
 h2 {
     font-size: 50px;
     padding: 20px;
-    border-bottom: 5px solid #CE5028;
-}
-.featured {
-    font-size: 35px;
 }
 
 h3 {
@@ -66,19 +62,25 @@ a:hover {
     color: #CE5028;
 }
 
-/* Home Page */
-.home-list {
+/* Featured */
+.featured h2 {
+    font-size: 35px;
+    border-bottom: 10px solid #CE5028;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #f9ac3a, #CE5028);
+}
+.featured ul {
     font-size: 24px;
     display: flex;
     list-style: none;
-    padding-top: 40px;
+    padding-top: 20px;
 }
-.home-list li {
+.featured li {
     font-weight: 900;
 }
-.home-list li a {
+.featured li a {
     padding: 20px;
 }
-.home-list li a:hover {
+.featured li a:hover {
     background-color: rgba(206, 80, 40, 0.1);
 }
