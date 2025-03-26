@@ -16,9 +16,7 @@ body {
     font-family: "Trebuchet MS", Arial, sans-serif;
 }
 .body-container {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 h1, h2, h4 {
@@ -26,13 +24,15 @@ h1, h2, h4 {
     font-weight: 900;
 }
 
+.header {
+    background-color: #CE5028;
+}
 h1 {
     font-size: 60px;
     text-transform: uppercase;
     padding: 60px 20px 20px;
     border-bottom: 10px solid #666;
     color: #fff;
-    background-color: #CE5028;
 }
 
 h2 {
@@ -68,19 +68,21 @@ a:hover {
     border-bottom: 10px solid #CE5028;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, #f9ac3a, #CE5028);
+    text-align: center;
 }
-.featured ul {
+.featured .recipes {
     font-size: 24px;
     display: flex;
-    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 20px;
 }
-.featured li {
+.featured .single-recipe {
     font-weight: 900;
-}
-.featured li a {
+    flex: 1;
     padding: 20px;
+    text-align: center;
 }
-.featured li a:hover {
+.featured .single-recipe:hover {
     background-color: rgba(206, 80, 40, 0.1);
 }
